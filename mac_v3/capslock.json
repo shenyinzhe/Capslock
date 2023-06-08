@@ -221,7 +221,7 @@
           ]
         },
         {
-          "description": "option + h = mouse left",
+          "description": "option + h = move left a word",
           "type": "basic",
           "from": {
             "key_code": "h",
@@ -237,33 +237,10 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "x": -1600
-              }
-            }
-          ]
-        },
-        {
-          "description": "shift + option + h = mouse left fast",
-          "type": "basic",
-          "from": {
-            "key_code": "h",
-            "modifiers": {
-              "mandatory": [
-                "left_shift",
-                "left_option",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_option"
               ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "x": -3200
-              }
             }
           ]
         },
@@ -445,7 +422,7 @@
           ]
         },
         {
-          "description": "option + j = mouse down",
+          "description": "option + j = move down a word",
           "type": "basic",
           "from": {
             "key_code": "j",
@@ -461,33 +438,10 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "y": 1600
-              }
-            }
-          ]
-        },
-        {
-          "description": "shift + option + j = mouse down fast",
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "mandatory": [
-                "left_shift",
-                "left_option",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
+              "key_code": "down_arrow",
+              "modifiers": [
+                "left_option"
               ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "y": 3200
-              }
             }
           ]
         },
@@ -670,7 +624,7 @@
           ]
         },
         {
-          "description": "option + k = mouse up",
+          "description": "option + k = move up a word",
           "type": "basic",
           "from": {
             "key_code": "k",
@@ -686,33 +640,10 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "y": -1600
-              }
-            }
-          ]
-        },
-        {
-          "description": "shift + option + k = mouse up fast",
-          "type": "basic",
-          "from": {
-            "key_code": "k",
-            "modifiers": {
-              "mandatory": [
-                "left_shift",
-                "left_option",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_option"
               ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "y": -3200
-              }
             }
           ]
         },
@@ -883,7 +814,7 @@
           ]
         },
         {
-          "description": "option + l = mouse move right",
+          "description": "option + l = move right a word",
           "type": "basic",
           "from": {
             "key_code": "l",
@@ -899,33 +830,10 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "x": 1600
-              }
-            }
-          ]
-        },
-        {
-          "description": "shift + option + l = mouse move right fast",
-          "type": "basic",
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "left_shift",
-                "left_option",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_option"
               ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "x": 3200
-              }
             }
           ]
         },
